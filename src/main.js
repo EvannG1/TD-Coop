@@ -12,8 +12,8 @@ library.add(fas);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 window.api = axios.create({
-  baseURL: 'https://tools.sopress.net/iut/coop/api/',
-  headers: { Authorization: 'a11811ec1bf83306b3b82135e75b719d0456fc16' }
+  baseURL: 'https://allweb.fun/coop/api/',
+  headers: { Authorization: '132f8d20eb921b570ff466446e9b4e7194ca716f' }
 });
 
 Vue.config.productionTip = false

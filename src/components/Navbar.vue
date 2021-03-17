@@ -2,7 +2,7 @@
     <div>
         <nav class="border split-nav">
             <div class="nav-brand">
-                <h3><router-link to="/login">TD-Coop</router-link></h3>
+                <h3><router-link to="/">TD-Coop</router-link></h3>
             </div>
             <div class="collapsible">
                 <input id="collapsible1" type="checkbox" name="collapsible1">

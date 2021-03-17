@@ -17,7 +17,7 @@
               </thead>
               <tbody>
                 <tr v-for="(member, index) in members">
-                  <td>{{ member.fullname }}</td>
+                  <td><a :href="'/member/' + member.id">{{ member.fullname }}</a></td>
                   <td>{{ member.email }}</td>
                   <td><font-awesome-icon class="trash" icon="trash" @click="deleteMember(member.id, member.fullname, index)"></font-awesome-icon></td>
                 </tr>

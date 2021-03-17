@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Conversations',
+    name: 'conversations',
     component: () => import('../views/Conversations.vue')
   },
   {
@@ -23,6 +23,21 @@ const routes = [
     path: '/members',
     name: 'members',
     component: () => import('../views/Members.vue')
+  },
+  {
+    path: '/member/:id',
+    name: 'member',
+    component: () => import('../views/Member.vue')
+  },
+  {
+    path: '/conversation/create',
+    name: 'CreateConversation',
+    component: () => import('../views/CreateConversation.vue')
+  },
+  {
+    path: '/conversation/:id',
+    name: 'conversation',
+    component: () => import('../views/Conversation.vue')
   }
 ]
 
