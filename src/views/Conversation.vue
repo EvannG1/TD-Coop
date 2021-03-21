@@ -71,7 +71,6 @@ export default {
             this.messages.push(element);
           });
       });
-      console.log(this.messages)
     },
     methods : {
         postMessage() {
